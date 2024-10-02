@@ -55,5 +55,8 @@ docker start {container_id}
 ### Mounting file
 
 ```
+mkdir new
+touch teh.txt
+
 docker run -it -v //c/ADIT/udinus/2023/sisi-server/learn-docker/new:/home/ubuntu/new ubuntu
 ```
