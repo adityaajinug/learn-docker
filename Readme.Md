@@ -92,7 +92,7 @@ service nginx start
 docker login -u {username}
 ```
 
-### Password pada docker hub juga bisa menggunakan Personal access token yang di set
+### Password pada docker hub juga bisa menggunakan Personal access token yang di set di profile untuk di generate
 
 ![Docker Hub Personal Token](img-learning/personal-access-token.png)
 
