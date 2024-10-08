@@ -68,8 +68,7 @@ docker run -it -v //c/ADIT/udinus/2023/sisi-server/learn-docker/new:/home/ubuntu
 ### Buat container baru dan di mounting volume ke ubuntu
 
 ```
-docker run -it -p 8081:80 -v /{path local folder}:/var/www/html --name {name_container} ubuntu bas
-h
+docker run -it -p 8081:80 -v /{path local folder}:/var/www/html --name {name_container} ubuntu bash
 ```
 
 ### Lakukan apt update di ubuntu dan install nginx
