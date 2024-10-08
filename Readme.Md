@@ -24,7 +24,7 @@ docker pull ubuntu
 4. Docker Container : setelah instalasi lib dengan image maka akan di kontainerisasi namun dengan nama yang berbeda seperti OS_ku
 5. Docker Registry : dalam registery terdapat hosting image, yang secara default disediakan di dockerhub. docker registry dapat dibuat sendiri untuk credential sendiri
 
-[Learning Docker](./img-learning/docker-learning.png)
+![Learning Docker](img-learning/docker-learning.jpg)
 
 ## Docker Image
 
@@ -95,7 +95,7 @@ docker login -u {username}
 
 ### Password pada docker hub juga bisa menggunakan Personal access token yang di set
 
-[Docker Hub Personal Token](./img-learning/personal-access-token.png)
+![Docker Hub Personal Token](img-learning/personal-access-token.png)
 
 ### Commit image
 
